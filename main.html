@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- shadow -->
+    <div onclick="close_all_header_div()" id="shadow-body"></div>
+    <!-- HEADER -->
+    <header>
+        <!-- NAVIGATION  -->
+        <nav onclick="open_menu()">
+            <div class="" id="nav-personal-div">
+                <img id="img-menu" src="image/меню сернутое.svg" alt="menu-nav">
+
+                <div id="div-menu-nav">
+                    <a href="catalog.html" class="menu-h1">
+                        <h1>Каталог</h1>
+                    </a>
+
+                    <a href="#" class="menu-h1">
+                        <h1>Блог</h1>
+                    </a>
+
+                    <a href="news.html" class="menu-h1">
+                        <h1>Новости</h1>
+                    </a>
+
+                    <a href="#" class="menu-h1">
+                        <h1>Контакты</h1>
+                    </a>
+
+                    <a href="#" class="menu-h1">
+                        <h1>О нас</h1>
+                    </a>
+
+                    <div onclick="open_personal_menu()" id="personal_account" class="menu-h1">
+                        <h1>Личный кабинет</h1>
+                    </div>
+
+                    <form action="" id="form_personal_account">
+                        <div class="nav-form-img">
+                            <img src="image/личный кабинет.svg" alt="avatar">
+                            <p>Войти в личный кабинет</p>
+                        </div>
+
+                        <input type="text" id="account_login" placeholder="Логин">
+                        <input type="password" id="account_password" placeholder="Пароль">
+
+                        <div class="nav-form-buttons">
+                            <input class="nav-form-button nav-form-button1" type="submit" value="ВОЙТИ">
+                            <a class="nav-form-button nav-form-button2" href="register.html">РЕГИСТРАЦИЯ</a>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Logo -->
+        <a class="nav-logo-a" href="main.html">
+            <div class="nav-logo">
+                <img src="image/логотип_шапка.svg" alt="logo">
+            </div>
+        </a>
+
+        <!-- div telephone and search -->
+        <div class="header-tel-search">
+            <a class="nav-tel-a" onclick="open_tel_div()">
+                <img class="tel-nav" src="image/телефон_шапка.svg" alt="phone">
+            </a>
+
+            <!-- search -->
+            <div class="nav-search" onclick="open_search_div()">
+                <img src="image/лупа_шапка.svg" alt="magnifier">
+            </div>
+        </div>
+
+        <!-- opening div - search -->
+        <div class="header-search-div" id="search_div">
+            <h1>Искать в</h1>
+            <div class="header-search-radio">
+
+                <div class="search-choose">
+                    <label for="search-description">
+                        <input type="radio" name="search-radio" id="search-description" checked>
+                        <h1>Описании приборов</h1>
+                    </label>
+
+                    <label for="search-instruction">
+                        <input type="radio" name="search-radio" id="search-instruction">
+                        <h1>инструкциях</h1>
+                    </label>
+                </div>
+                <form class="form-search">
+                    <input type="text" placeholder="поиск...">
+                    <button type="submit"></button>
+                </form>
+            </div>
+        </div>
+
+        <!-- opening div - call me -->
+        <div class="header-search-div header-tel-div" id="tel_div">
+            <h1>Позвоните мне</h1>
+            <form class="form-search">
+                <input type="text" placeholder="заполните ваш номер телефона">
+                <button type="submit"></button>
+            </form>
+        </div>
+
+    </header>
+
+    <main onclick="close_all_header_div()">
+        <!-- 1 section - Catalog -->
+        <section class="main-catalog">
+            <a class="main-catalog-card1" href="#">
+                <div class="main-catalog-card">
+                    <img src="image/мониторы_значек.svg" alt="monitors">
+                    <h1>МОНИТОРЫ</h1>
+                </div>
+            </a>
+            <a class="main-catalog-card2" href="#">
+                <div class="main-catalog-card">
+                    <img src="image/анестезия_значек.svg" alt="anesthesia">
+                    <h1>Анестезия</h1>
+                </div>
+            </a>
+            <a class="main-catalog-card3" href="#">
+                <div class="main-catalog-card">
+                    <img src="image/icu_значек.svg" alt="ICU">
+                    <h1>ICU</h1>
+                </div>
+            </a>
+        </section>
+
+        <!-- 2 section - text about  -->
+        <div class="div-h1 div-h1-about">
+            <h1>о нас</h1>
+        </div>
+
+        <section class="main-text">
+            <h2>ЗАГОЛОВОК</h2>
+            <p>Подзаголовок Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit consequatur
+                laudantium veniam beatae voluptas esse labore nemo asperiores repudiandae officia expedita omnis aliquid
+                atque perspiciatis, temporibus possimus, iure eum accusantium deserunt, voluptates nisi alias et odio.
+                Nisi, eligendi explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempora ipsam
+                praesentium labore. Itaque, quisquam.
+            </p>
+        </section>
+
+        <div class="div-news-blog">
+
+            <!-- 3 section - blog -->
+            <section class="main-news-blog-wrapper">
+                <div class="div-h1">
+                    <h1>Блог</h1>
+                </div>
+
+                <div class="main-news-blog-slider main-news-slider1" id="main-blog-slider1">
+                    <h3>Заголовок 1</h3>
+                    <div class="text-news-blog-slider">
+                        <p>Подзаголовок Lorem, ipsum dolor sit amet consectetur adipisicing elit..</p>
+                        <img id="arrow-blog-slide1" onclick="main_slider_next(1, 'blog')"
+                            class="main-news-blog-slider-arrow" src="image/стрелка значек новости.svg" alt="arrow-next">
+                    </div>
+                </div>
+
+                <div class="main-news-blog-slider main-news-slider2" id="main-blog-slider2">
+                    <h3>Заголовок 2</h3>
+                    <div class="text-news-blog-slider">
+                        <p>Подзаголовок Lorem, dolor sit amet consectetur adipisicing elit.</p>
+                        <img id="arrow-blog-slide2" onclick="main_slider_next(2, 'blog')"
+                            class="main-news-blog-slider-arrow" src="image/стрелка значек новости.svg" alt="arrow-next">
+                    </div>
+                </div>
+
+                <div class="main-news-blog-slider main-news-slider3" id="main-blog-slider3">
+                    <h3>Заголовок 3</h3>
+                    <div class="text-news-blog-slider">
+                        <p>Подзаголовок Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </p>
+                        <img id="arrow-blog-slide3" onclick="main_slider_next(3, 'blog')"
+                            class="main-news-blog-slider-arrow" src="image/стрелка значек новости.svg" alt="arrow-next">
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4 section - news -->
+            <section class="main-news-blog-wrapper">
+                <div class="div-h1">
+                    <h1>Новости</h1>
+                </div>
+
+                <div class="main-news-blog-slider main-blog-slider1" id="main-news-slider1">
+                    <h3>Заголовок 1</h3>
+                    <div class="text-news-blog-slider">
+                        <p>Подзаголовок Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img id="arrow-news-slide1" onclick="main_slider_next(1, 'news')"
+                            class="main-news-blog-slider-arrow" src="image/стрелка значек новости.svg" alt="arrow-next">
+                    </div>
+                </div>
+
+                <div class="main-news-blog-slider main-blog-slider2" id="main-news-slider2">
+                    <h3>Заголовок 2</h3>
+                    <div class="text-news-blog-slider">
+                        <p>Подзаголовок Lorem, dolor sit amet consectetur adipisicing elit.</p>
+                        <img id="arrow-news-slide2" onclick="main_slider_next(2, 'news')"
+                            class="main-news-blog-slider-arrow" src="image/стрелка значек новости.svg" alt="arrow-next">
+                    </div>
+                </div>
+
+                <div class="main-news-blog-slider main-blog-slider3" id="main-news-slider3">
+                    <h3>Заголовок 3</h3>
+                    <div class="text-news-blog-slider">
+                        <p>Подзаголовок Lorem ipsum dolor sit, amet consectetur.
+                        </p>
+                        <img id="arrow-news-slide3" onclick="main_slider_next(3, 'news')"
+                            class="main-news-blog-slider-arrow" src="image/стрелка значек новости.svg" alt="arrow-next">
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer">
+
+            <!-- footer left -->
+            <div class="footer-left">
+                <!-- icons -->
+                <div class="footer-icons">
+                    <a href="#">
+                        <img src="image/телеграмм_ подвал.svg" alt="telegram">
+                    </a>
+                    <a href="#">
+                        <img src="image/ватсап_ подвал.svg" alt="whatsapp">
+                    </a>
+                </div>
+
+                <!-- contacts -->
+                <div class="footer-contacts1">
+                    <!-- telephone -->
+                    <a href="tel:79152920005">
+                        <div>
+                            <img src="image/телефон_ подвал.svg" alt="phone-footer">
+                            <p>+7 915 292-000-5</p>
+                        </div>
+                    </a>
+
+                    <!-- email -->
+                    <a href="mailto:info@spectrum-med.ru">
+                        <div>
+                            <img src="image/почта_ подвал.svg" alt="email-footer">
+                            <p>info@spektrum-med.ru</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- footer right -->
+            <div class="footer-right">
+                <!-- contacts -->
+                <div class="footer-contacts2">
+                    <img src="image/адрес_ подвал.svg" alt="site-footer">
+                    <p>119021, г. Москва, ул. Тимура Фрунзе, д.16, стр. 3, офис 18</p>
+                </div>
+
+                <!-- Logo  -->
+                <a href="main.html">
+                    <div class="footer-logo">
+                        <img src="image/логотип_шапка.svg" alt="logo">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

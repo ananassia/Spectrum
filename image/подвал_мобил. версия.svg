@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="91.44mm" height="33.354mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 9144 3335.4"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#C5ECF9;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil3 {fill:none}
+    .fil2 {fill:none}
+    .fil1 {fill:#336699}
+    .fil0 {fill:#549BBF}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M-8.22 4.36l9144 0 0 3335.44 -9144 0 0 -3335.44z"/>
+    </clipPath>
+     <mask id="id1">
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="6968.05" y1="-3044.74" x2="6514.81" y2="3227.63">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+      <rect style="fill:url(#id2)" x="-8.22" y="4.36" width="9144" height="3335.44"/>
+     </mask>
+    <clipPath id="id3">
+     <path d="M-8.22 4.36l9144 0 0 3335.44 -9144 0 0 -3335.44z"/>
+    </clipPath>
+      <clipPath id="id4">
+       <path d="M9135.78 2921.21l-5656.96 0 0 -2916.85 5656.96 0 0 2916.85z"/>
+      </clipPath>
+      <clipPath id="id5">
+       <path d="M-8.22 4.36l9144 0 0 3335.44 -9144 0 0 -3335.44z"/>
+      </clipPath>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1642290158256">
+   <rect class="fil0" x="-8.22" y="4.36" width="9144" height="3335.44"/>
+   <g style="clip-path:url(#id0)">
+    <polygon class="fil1" style="mask:url(#id1)" points="-8.22,4.36 9135.78,4.36 9135.78,3339.8 -8.22,3339.8 "/>
+   </g>
+   <g style="clip-path:url(#id3)">
+    <g>
+     <g>
+     </g>
+     <g style="clip-path:url(#id4)">
+      <image x="3478.82" y="-4089.79" width="10178.08" height="7011" xlink:href="подвал_мобил. версия_Images\подвал_мобил. версия_ImgID1.png"/>
+     </g>
+     <g style="clip-path:url(#id5)">
+     </g>
+     <g>
+      <polygon class="fil2 str0" points="8628.23,-2133.89 13394.83,-1182 12182.88,1889.75 "/>
+      <polygon class="fil2 str0" points="9901.51,-692.62 11834.64,-1493.62 10909.55,448.42 "/>
+      <polygon class="fil2 str0" points="10405.5,-122.13 13394.83,-1182 12182.88,1889.75 "/>
+      <polygon class="fil2 str0" points="8628.23,-2133.89 8985.13,2713.71 12182.88,1889.75 "/>
+      <polygon class="fil2 str0" points="9901.51,-692.62 8868.27,1127 10909.55,448.42 "/>
+      <polygon class="fil2 str0" points="10405.5,-122.13 8985.13,2713.71 12182.88,1889.75 "/>
+      <polygon class="fil3 str0" points="10405.5,-122.13 11338.97,-453.16 10909.55,448.42 "/>
+      <polygon class="fil3 str0" points="10405.5,-122.13 9961.9,763.4 10909.55,448.42 "/>
+      <polygon class="fil2 str0" points="8272.99,839.95 3506.39,-111.94 4718.34,-3183.69 "/>
+      <polygon class="fil2 str0" points="6999.71,-601.32 5066.58,199.68 5991.67,-1742.36 "/>
+      <polygon class="fil2 str0" points="6495.72,-1171.81 3506.39,-111.94 4718.34,-3183.69 "/>
+      <polygon class="fil2 str0" points="8272.99,839.95 7916.09,-4007.65 4718.34,-3183.69 "/>
+      <polygon class="fil2 str0" points="6999.71,-601.32 8032.95,-2420.94 5991.67,-1742.36 "/>
+      <polygon class="fil2 str0" points="6495.72,-1171.81 7916.09,-4007.65 4718.34,-3183.69 "/>
+      <polygon class="fil3 str0" points="6495.72,-1171.81 5562.25,-840.78 5991.67,-1742.36 "/>
+      <polygon class="fil3 str0" points="6495.72,-1171.81 6939.32,-2057.34 5991.67,-1742.36 "/>
+     </g>
+    </g>
+   </g>
+   <polygon class="fil3" points="-8.22,4.36 9135.78,4.36 9135.78,3339.8 -8.22,3339.8 "/>
+   <rect class="fil1" x="-8.22" y="4.36" width="9144" height="99.97"/>
+  </g>
+ </g>
+</svg>

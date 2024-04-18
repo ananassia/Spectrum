@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конфигуратор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main-configurator">
+
+        <!-- 1 set -->
+        <div class="configurator-text">
+            <p>Номер комплекта: 21А363</p>
+
+            <div class="conf-items">
+                <h3>Монитор мультипара&shyметрический PAVO</h3>
+                <div>
+                    <h3>00.00руб.</h3>
+
+                    <div class="conf-items-number">
+                        <button class="number-minus" type="button" onclick="stepDown(1)"><img
+                                src="image/конфигуратор_минус.svg" alt="minus"></button>
+                        <input type="number" min="0" value="0" id="basket_number1" readonly>
+                        <button class="number-plus" type="button" onclick="stepUp(1)"><img
+                                src="image/конфигуратор_плюс.svg" alt="plus"></button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="conf-positions">
+                <p>Кол-во позиций в комплекте: 00</p>
+                <button onclick="open_conf_positions(1)" class="pos-bt pos-bt-active"
+                    id="conf-pos-bt-act1">Развернуть</button>
+
+                <button onclick="close_conf_positions(1)" class="pos-bt pos-bt-passive"
+                    id="conf-pos-bt-pas1">Свернуть</button>
+            </div>
+
+            <table class="conf-pos" id="configurator_positions1">
+                <tr>
+                    <td>000-000</td>
+                    <th class="table-70">название позиции</th>
+                    <td>00.00руб.</td>
+                </tr>
+
+                <tr>
+                    <td>000-000</td>
+                    <th class="table-70">название позиции</th>
+                    <td>00.00руб.</td>
+                </tr>
+
+                <tr>
+                    <td>000-000</td>
+                    <th class="table-70">название позиции</th>
+                    <td>00.00руб.</td>
+                </tr>
+
+                <tr>
+                    <td style="border:none">000-000</td>
+                    <th style="border-bottom:none" class="table-70">название позиции</th>
+                    <td style="border:none">00.00руб.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="gray-line"></div>
+
+        <!-- 2 set -->
+        <div class="configurator-text">
+            <p>Номер комплекта: 21А363</p>
+
+            <div class="conf-items">
+                <h3>Монитор мультипара&shyметрический PAVO</h3>
+                <div>
+                    <h3>00.00руб.</h3>
+
+                    <div class="conf-items-number">
+                        <button class="number-minus" type="button" onclick="stepDown(2)"><img
+                                src="image/конфигуратор_минус.svg" alt="minus"></button>
+                        <input type="number" min="0" value="0" id="basket_number2" readonly>
+                        <button class="number-plus" type="button" onclick="stepUp(2)"><img
+                                src="image/конфигуратор_плюс.svg" alt="plus"></button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="conf-positions">
+                <p>Кол-во позиций в комплекте: 00</p>
+                <button onclick="open_conf_positions(2)" class="pos-bt pos-bt-active"
+                    id="conf-pos-bt-act2">Развернуть</button>
+
+                <button onclick="close_conf_positions(2)" class="pos-bt pos-bt-passive"
+                    id="conf-pos-bt-pas2">Свернуть</button>
+            </div>
+
+            <table class="conf-pos" id="configurator_positions2">
+                <tr>
+                    <td>000-000</td>
+                    <th class="table-70">название позиции</th>
+                    <td>00.00руб.</td>
+                </tr>
+
+                <tr>
+                    <td>000-000</td>
+                    <th class="table-70">название позиции</th>
+                    <td>00.00руб.</td>
+                </tr>
+
+                <tr>
+                    <td>000-000</td>
+                    <th class="table-70">название позиции</th>
+                    <td>00.00руб.</td>
+                </tr>
+
+                <tr>
+                    <td style="border:none">000-000</td>
+                    <th style="border-bottom:none" class="table-70">название позиции</th>
+                    <td style="border:none">00.00руб.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="gray-line"></div>
+
+        <!-- 3 set -->
+        <div class="configurator-text">
+            <p>Номер комплекта: 21А363</p>
+
+            <div class="conf-items">
+                <h3>Монитор мультипара&shyметрический PAVO</h3>
+                <div>
+                    <h3>00.00руб.</h3>
+
+                    <div class="conf-items-number">
+                        <button class="number-minus" type="button" onclick="stepDown(3)"><img
+                                src="image/конфигуратор_минус.svg" alt="minus"></button>
+                        <input type="number" min="0" value="0" id="basket_number3" readonly>
+                        <button class="number-plus" type="button" onclick="stepUp(3)"><img
+                                src="image/конфигуратор_плюс.svg" alt="plus"></button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="conf-positions">
+                <p>Кол-во позиций в комплекте: 00</p>
+                <button onclick="open_conf_positions(3)" class="pos-bt pos-bt-active"
+                    id="conf-pos-bt-act3">Развернуть</button>
+
+                <button onclick="close_conf_positions(3)" class="pos-bt pos-bt-passive"
+                    id="conf-pos-bt-pas3">Свернуть</button>
+            </div>
+
+            <table class="conf-pos" id="configurator_positions3">
+                <tr>
+                    <td>000-000</td>
+                    <th class="table-70">название позиции</th>
+                    <td>00.00руб.</td>
+                </tr>
+
+                <tr>
+                    <td>000-000</td>
+                    <th class="table-70">название позиции</th>
+                    <td>00.00руб.</td>
+                </tr>
+
+                <tr>
+                    <td>000-000</td>
+                    <th class="table-70">название позиции</th>
+                    <td>00.00руб.</td>
+                </tr>
+
+                <tr>
+                    <td style="border:none">000-000</td>
+                    <th style="border-bottom:none" class="table-70">название позиции</th>
+                    <td style="border:none">00.00руб.</td>
+                </tr>
+            </table>
+        </div>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

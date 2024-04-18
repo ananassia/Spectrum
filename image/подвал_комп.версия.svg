@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="490.307mm" height="46.513mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 49030.7 4651.3"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#C5ECF9;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil3 {fill:none}
+    .fil2 {fill:none}
+    .fil1 {fill:#336699}
+    .fil0 {fill:#549BBF}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M-8.22 4.4c4581.67,0 44128.2,0 49023.19,0l7.5 0 0 4651.25 -49030.69 0 0 -4651.25z"/>
+    </clipPath>
+     <mask id="id1">
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="36266.4" y1="-4268.83" x2="36101.23" y2="4520.51">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+      <rect style="fill:url(#id2)" x="-8.22" y="4.4" width="49030.69" height="4651.25"/>
+     </mask>
+    <clipPath id="id3">
+     <path d="M-8.22 4.4c4581.67,0 44128.2,0 49023.19,0l7.5 0 0 4651.25 -49030.69 0 0 -4651.25z"/>
+    </clipPath>
+      <clipPath id="id4">
+       <path d="M38717.86 4655.65l0 -4651.25 10297.11 0 7.5 0 0 4651.25 -10304.61 0z"/>
+      </clipPath>
+      <clipPath id="id5">
+       <path d="M-8.22 4.4c4581.67,0 44128.2,0 49023.19,0l7.5 0 0 4651.25 -49030.69 0 0 -4651.25z"/>
+      </clipPath>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1642301452928">
+   <path class="fil0" d="M-8.22 4.4c4430.36,0 44486.36,0 49023.19,0l7.5 0 0 4651.25 -49030.69 0 0 -4651.25z"/>
+   <g style="clip-path:url(#id0)">
+    <polygon class="fil1" style="mask:url(#id1)" points="-8.22,4.4 49022.47,4.4 49022.47,4655.65 -8.22,4655.65 "/>
+   </g>
+   <g style="clip-path:url(#id3)">
+    <g>
+     <g>
+     </g>
+     <g style="clip-path:url(#id4)">
+      <image x="38717.86" y="-5005.98" width="14185.07" height="9768.59" xlink:href="подвал_комп_Images\подвал_комп_ImgID1.png"/>
+     </g>
+     <g style="clip-path:url(#id5)">
+     </g>
+     <g>
+      <polygon class="fil2 str0" points="45894.59,-2282.59 52541.58,-955.19 50851.52,3328.35 "/>
+      <polygon class="fil2 str0" points="47670.16,-272.75 50365.9,-1389.74 49075.87,1318.42 "/>
+      <polygon class="fil2 str0" points="48372.97,522.79 52541.58,-955.19 50851.52,3328.35 "/>
+      <polygon class="fil2 str0" points="45894.59,-2282.59 46392.28,4477.35 50851.52,3328.35 "/>
+      <polygon class="fil2 str0" points="47670.16,-272.75 46229.31,2264.7 49075.87,1318.42 "/>
+      <polygon class="fil2 str0" points="48372.97,522.79 46392.28,4477.35 50851.52,3328.35 "/>
+      <polygon class="fil3 str0" points="48372.97,522.79 49674.7,61.17 49075.87,1318.42 "/>
+      <polygon class="fil3 str0" points="48372.97,522.79 47754.37,1757.66 49075.87,1318.42 "/>
+      <polygon class="fil2 str0" points="45399.2,1864.41 38752.21,537.01 40442.27,-3746.53 "/>
+      <polygon class="fil2 str0" points="43623.63,-145.43 40927.89,971.55 42217.92,-1736.6 "/>
+      <polygon class="fil2 str0" points="42920.81,-940.97 38752.21,537.01 40442.27,-3746.53 "/>
+      <polygon class="fil2 str0" points="45399.2,1864.41 44901.5,-4895.54 40442.27,-3746.53 "/>
+      <polygon class="fil2 str0" points="43623.63,-145.43 45064.48,-2682.88 42217.92,-1736.6 "/>
+      <polygon class="fil2 str0" points="42920.81,-940.97 44901.5,-4895.54 40442.27,-3746.53 "/>
+      <polygon class="fil3 str0" points="42920.81,-940.97 41619.09,-479.35 42217.92,-1736.6 "/>
+      <polygon class="fil3 str0" points="42920.81,-940.97 43539.42,-2175.85 42217.92,-1736.6 "/>
+     </g>
+    </g>
+   </g>
+   <path class="fil3" d="M-8.22 4.4c4581.67,0 44128.2,0 49023.19,0l7.5 0 0 4651.25 -49030.69 0 0 -4651.25z"/>
+   <path class="fil1" d="M-8.22 4.4c4430.36,0 44486.36,0 49023.19,0l7.5 0 0 139.41c-4282.84,0 -44759.04,0 -49030.69,0l0 -139.41z"/>
+  </g>
+ </g>
+</svg>
